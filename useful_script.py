@@ -7,7 +7,7 @@ import pandas as pd
 
 def get_token_data():
     # Set API key and ERC-20 token address
-    api_key = 'CNG24DP4UYTNVHD89WCZ6E8MSFT2QXH3QZ'
+    api_key = 'YOUR_API_KEY'
     contract_address = '0xdAC17F958D2ee523a2206206994597C13D831ec7'  # Replace with the contract address that you wish to observe
 
     api_endpoint = 'https://api.etherscan.io/api'
