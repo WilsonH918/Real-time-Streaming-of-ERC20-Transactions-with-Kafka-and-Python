@@ -19,8 +19,8 @@ By using this pipeline, users can retrieve real-time ERC20 token transactions an
 ![image](https://user-images.githubusercontent.com/117455557/229311227-0a600481-d88f-40b1-b2ef-33da2d0cdbf7.png)  
 4. Install the kafka-python package by running the command pip install kafka-python.  
 5. Run the producer.py and consumer.py scripts to start the data pipeline. You should see the real-time web3 transactions being produced and consumed.  
-![image](https://user-images.githubusercontent.com/117455557/229311318-2611e34b-bcee-41a8-a45b-a46e89fe42c9.png)
-![image](https://user-images.githubusercontent.com/117455557/229311338-362ec60d-8457-464f-b03c-2a00a4a3f7d3.png)  
+![image](https://user-images.githubusercontent.com/117455557/229311318-2611e34b-bcee-41a8-a45b-a46e89fe42c9.png)  
+![image](https://user-images.githubusercontent.com/117455557/229311411-40e802d0-3936-4335-9399-951f6bae23ec.png)  
 Note: Before running the scripts, make sure to update the API key and ERC-20 token address in the producer.py file.  
 
 ## Prerequisites  
