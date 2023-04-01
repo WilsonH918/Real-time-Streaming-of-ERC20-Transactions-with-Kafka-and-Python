@@ -12,6 +12,13 @@ The project consists of three main components:
 
 By using this pipeline, users can retrieve real-time ERC20 token transactions and store them in a local file for further analysis. The pipeline can be customized to include additional data sources, such as other blockchain explorers or data providers, and can also be scaled up to handle large volumes of data.  
 
+## Instructions to Run the Real-Time ERC20 Token Transactions Data Pipeline  
+1. Open a command prompt and navigate to the Kafka installation directory. Start the ZooKeeper server by running the command .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties. Keep this command prompt open.  
+![image](https://user-images.githubusercontent.com/117455557/229311120-7dcf84a9-2a50-4e3e-9894-622ab1a4e6e0.png)  
+2. In another command prompt, navigate to the Kafka installation directory and start the Kafka broker by running the command .\bin\windows\kafka-server-start.bat .\config\server.properties. Keep this command prompt open.  
+![image](https://user-images.githubusercontent.com/117455557/229311161-92abf856-e008-4e5d-b6eb-fd3ca29285b8.png)  
+
+
 ## Prerequisites  
 To run this project, you will need the following:  
 - Python 3  
